@@ -1,55 +1,101 @@
-@charset "utf-8";
-
-body {
-  background: #d4d4d4 url("../images/background.png");
-  text-align: center;
-  font-family: sans-serif; }
-
+/* line 5, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
 h1 {
-  color: rgba(0, 0, 0, .3);
+  color: #fdfd53;
   font-weight: bold;
-  font-size: 32px;
-  letter-spacing: -1px;
-  text-transform: uppercase;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-  background: url("../images/middleman.png") no-repeat center 100px;
-  padding: 350px 0 10px;
+  margin: 0;
+  line-height: 1; }
+
+/* line 12, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+#organised-by, #powered-by {
+  color: #000; }
+  /* line 14, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+  #organised-by span, #powered-by span {
+    display: block;
+    font-size: 0.9em;
+    line-height: 1em;
+    margin-bottom: 0.5em; }
+
+/* line 22, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+#powered-by {
+  float: right; }
+
+/* line 26, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+body {
+  background: url("/images/background.jpg") bottom center fixed #545454;
+  background-size: cover;
+  color: #FFF;
+  font-family: 'Titillium Web';
+  font-size: 20px;
+  line-height: 1.1em;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 36, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+span.check {
+  display: block;
+  color: #fdfd53;
+  margin-bottom: 0.5em; }
+
+/* line 42, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+#open-design {
+  background: #FFF;
+  height: 200px; }
+
+/* line 47, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+#fab10 {
+  background: #053FA0; }
+
+/* line 51, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+#container {
+  width: 800px;
+  margin: 50px auto; }
+
+/* line 56, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+#bigbangdata {
+  background: #000; }
+
+/* line 59, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+#ouisharesafari {
+  background: #FFF; }
+
+/* line 62, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+#spainmeetup {
+  background: #008B80; }
+
+/* line 66, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+h1 {
+  font-size: 70px;
   margin: 0; }
 
-.doc {
-  font-size: 14px;
-  margin: 0; }
-  .doc:before,
-  .doc:after {
-    opacity: .2;
-    padding: 6px;
-    font-style: normal;
-    position: relative;
-    content: "•"; }
-  .doc a {
-    color: rgba(0, 0, 0, 0.3); }
-    .doc a:hover {
-      color: #666; }
+/* line 71, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+img {
+  display: block;
+  clear: both; }
 
-.welcome {
-  -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s; }
-
-@-webkit-keyframes welcome {
-  from {
-    -webkit-transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-   -webkit-transform: scale(0);
-   opacity: 0;
-  }
-  82.5% {
-    -webkit-transform: scale(1.03);
-    -webkit-animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  to {
-    -webkit-transform: scale(1);
-  }
-}
+/* line 76, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+table {
+  width: 100%;
+  color: #000;
+  margin-bottom: 20px;
+  border-collapse: collapse; }
+  /* line 81, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+  table td.day {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    width: 12.5%;
+    text-align: center; }
+  /* line 89, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+  table tbody td {
+    height: 80px;
+    text-align: center; }
+    /* line 92, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+    table tbody td img {
+      max-width: 90%;
+      display: inline; }
+  /* line 99, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+  table thead th {
+    background: #fdfd53; }
+  /* line 102, /Users/john/Code/8days/8daysbcn/source/stylesheets/all.css.scss */
+  table thead td {
+    background: #000;
+    color: #fdfd53; }
